@@ -51,21 +51,21 @@ app.use('/api/messages', messageRoutes);
 
 // Run production build via server-side
 // serve static front-end
-if (process.env.NODE_ENV === 'production') {
-   app.use(express.static(path.join(__dirname, '../client/build')));
+// if (process.env.NODE_ENV === 'production') {
+//    app.use(express.static(path.join(__dirname, '../client/build')));
 
-   app.get('*', (req, res) =>
-      res.sendFile(
-         path.resolve(__dirname, '../', 'client', 'build', 'index.html')
-      )
-   );
-} else {
-   app.get('/', (req, res) =>
-      res.send('Set working environment to production.')
-   );
-}
+//    app.get('*', (req, res) =>
+//       res.sendFile(
+//          path.resolve(__dirname, '../', 'client', 'build', 'index.html')
+//       )
+//    );
+// } else {
+//    app.get('/', (req, res) =>
+//       res.send('Set working environment to production.')
+//    );
+// }
 
-// start server
-server.listen(PORT, () => {
-   console.log(`Server listening at port: ${PORT}`.blue);
-});
+// // start server
+// server.listen(PORT, () => {
+//    console.log(`Server listening at port: ${PORT}`.blue);
+// });
