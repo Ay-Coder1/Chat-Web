@@ -1,5 +1,5 @@
 // components
-import { StyledMessageReactions } from './MessageReactions.styled';
+import { StyledMessageReactions } from '../message/messageReactions.styled';
 import { emojiReactions } from '../../data/reactions';
 
 // context

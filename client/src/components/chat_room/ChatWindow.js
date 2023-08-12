@@ -3,11 +3,11 @@ import { useState, useRef } from 'react';
 // components / styled
 import { SectionContainer } from '../styles/SectionContainer.styled';
 import { StyledChatWindow } from './ChatWindow.styled';
-import Header from '../header/Header';
+import Header from '../Header/Header';
 import MessageWindow from './MessagesWindow';
 import MessageForm from './MessageForm';
-import DeleteModal from '../modal/DeleteModal';
-import ThemeSettings from '../theme/ThemeSettings';
+import DeleteModal from '../Modal/DeleteModal';
+import ThemeSettings from '../Theme/ThemeSettings';
 
 // packages
 import io from 'socket.io-client';

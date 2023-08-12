@@ -1,7 +1,7 @@
 import { forwardRef } from 'react';
 
 // components
-import { StyledReactionButtons } from './MessageReactions.styled';
+import { StyledReactionButtons } from '../message/messageReactions.styled';
 import { emojiReactions } from '../../data/reactions';
 
 // context

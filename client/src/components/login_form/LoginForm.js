@@ -9,7 +9,7 @@ import {
    ErrorMessage,
    RegisterLink,
 } from './LoginForm.styled';
-import ThemeButton from '../theme/ThemeButton';
+import ThemeButton from '../Theme/ThemeButton';
 
 // hooks
 import useLogin from '../../hooks/useLogin';
@@ -75,7 +75,7 @@ const LoginForm = () => {
                error={errorMessage}
                showPassword={showPassword}
             >
-               <h1>Chilly talk 🤗</h1>
+               <h1>MideChat 🤗</h1>
                <div className="input-group">
                   <label htmlFor="email">Email</label>
                   <input

@@ -7,7 +7,7 @@ import {
    StyledMenuButton,
 } from './Header.styled';
 import Menu from './Menu';
-import ThemeButton from '../theme/ThemeButton';
+import ThemeButton from '../Theme/ThemeButton';
 
 // packages
 import { Transition } from 'react-transition-group';
@@ -28,7 +28,7 @@ const Header = () => {
    return (
       <StyledHeader>
          <StyledMenuContainer userColor={user.color}>
-            <p className="header-username">Hi {user.name} 😊</p>
+            <p className="header-username">Welcome {user.name} 😊</p>
 
             <div className="header-btns-wrapper">
                <ThemeButton />

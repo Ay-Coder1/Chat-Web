@@ -2,10 +2,10 @@ import { useState, useEffect, useRef } from 'react';
 
 // components
 import { MsgOptionsBtn } from '../chat_room/MessagesWindow.styled';
-import { StyledMessage } from './Message.styled';
+import { StyledMessage } from '../message/Message.styled';
 import MessageOptions from './MessageOptions';
-import ReactionButtons from './ReactionButtons';
-import MessageReactions from './MessageReactions';
+import ReactionButtons from '../message/reactionButtons';
+import MessageReactions from '../message/messageReactions';
 
 // packages
 import moment from 'moment';

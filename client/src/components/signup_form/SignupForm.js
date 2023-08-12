@@ -10,7 +10,7 @@ import {
 } from './SignupForm.styled';
 import useSignup from '../../hooks/useSignup';
 import { TooltipName, TooltipPassword } from './Tooltip';
-import ThemeButton from '../theme/ThemeButton';
+import ThemeButton from '../Theme/ThemeButton';
 
 // icons
 import { FaEye, FaEyeSlash, FaRegQuestionCircle } from 'react-icons/fa';

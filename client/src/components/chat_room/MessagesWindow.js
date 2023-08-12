@@ -3,7 +3,7 @@ import { useEffect, forwardRef } from 'react';
 // components
 import { MessagesContainer } from './MessagesWindow.styled';
 import Message from '../message/Message';
-import MessageLoadingFrame from '../loader/MessageLoadingFrame';
+import MessageLoadingFrame from '../Loader/MessageLoadingFrame';
 
 // context
 import { useAuthContext } from '../../context/AuthContext';
