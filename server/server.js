@@ -18,7 +18,7 @@ const app = express();
 app.use(credentialsMiddleware);
 app.use(cors(corsOptions));
 
-// check if any data is send to server if true, attach this data to request.body property
+
 app.use(express.json());
 
 // initialize socket.io server
@@ -46,21 +46,6 @@ connectToDataBase();
 app.use('/api/users', userRoutes);
 app.use('/api/messages', messageRoutes);
 
-// Run production build via server-side
-// serve static front-end
-// if (process.env.NODE_ENV === 'production') {
-//    app.use(express.static(path.join(__dirname, '../client/build')));
-
-//    app.get('*', (req, res) =>
-//       res.sendFile(
-//          path.resolve(__dirname, '../', 'client', 'build', 'index.html')
-//       )
-//    );
-// } else {
-//    app.get('/', (req, res) =>
-//       res.send('Set working environment to production.')
-//    );
-// }
 
 // start server
 server.listen(PORT, () => {
