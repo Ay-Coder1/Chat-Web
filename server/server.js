@@ -12,6 +12,8 @@ const connectToDataBase = require('./config/db');
 const userRoutes = require('./routes/userRoutes');
 const messageRoutes = require('./routes/messageRoutes');
 
+const secretKey = process.env.SECRET;
+
 const PORT = process.env.PORT || 5000;
 
 const app = express();
