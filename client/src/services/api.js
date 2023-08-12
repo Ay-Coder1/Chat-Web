@@ -6,11 +6,11 @@ export const METHODS = {
 };
 
 export const API_URL = {
-   BASE_URL: `http://localhost:5000`,
-   LOGIN_USER: `http://localhost:5000/api/users/login`,
-   REGISTER_USER: `http://localhost:5000/api/users/signup`,
-   GET_MESSAGES: `http://localhost:5000/api/messages`,
-   CREATE_MESSAGE: `http://localhost:5000/api/messages/`,
-   EDIT_MESSAGE: `http://localhost:5000/api/messages/`,
-   DELETE_MESSAGE: `http://localhost:5000/api/messages/`,
+   BASE_URL: `https://chat-web-psi.vercel.app/`,
+   LOGIN_USER: `https://chat-web-psi.vercel.app/api/users/login`,
+   REGISTER_USER: `https://chat-web-psi.vercel.app/api/users/signup`,
+   GET_MESSAGES: `https://chat-web-psi.vercel.app/api/messages`,
+   CREATE_MESSAGE: `https://chat-web-psi.vercel.app/api/messages/`,
+   EDIT_MESSAGE: `https://chat-web-psi.vercel.app/api/messages/`,
+   DELETE_MESSAGE: `https://chat-web-psi.vercel.app/api/messages/`,
 };
