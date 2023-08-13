@@ -6,11 +6,11 @@ export const METHODS = {
 };
 
 export const API_URL = {
-  BASE_URL: `http://localhost:5000`,
-  LOGIN_USER: `http://localhost:5000/api/users/login`,
-  REGISTER_USER: `http://localhost:5000/api/users/signup`,
-  GET_MESSAGES: `http://localhost:5000/messages`,
-  CREATE_MESSAGE: `http://localhost:5000/messages/`,
-  EDIT_MESSAGE: `http://localhost:5000/api/messages/`,
-  DELETE_MESSAGE: `http://localhost:5000/api/messages/`,
+  BASE_URL: `https://chat-web-3kav.onrender.com/`,
+  LOGIN_USER: `https://chat-web-3kav.onrender.com/api/users/login`,
+  REGISTER_USER: `https://chat-web-3kav.onrender.com/api/users/signup`,
+  GET_MESSAGES: `https://chat-web-3kav.onrender.com/messages`,
+  CREATE_MESSAGE: `https://chat-web-3kav.onrender.com/messages/`,
+  EDIT_MESSAGE: `https://chat-web-3kav.onrender.com/api/messages/`,
+  DELETE_MESSAGE: `https://chat-web-3kav.onrender.com/api/messages/`,
 };
