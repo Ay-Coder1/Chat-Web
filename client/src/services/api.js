@@ -6,7 +6,7 @@ export const METHODS = {
 };
 
 export const API_URL = {
-  BASE_URL: `https://chat-web-3kav.onrender.com/`,
+  BASE_URL: `https://chat-web-3kav.onrender.com`,
   LOGIN_USER: `https://chat-web-3kav.onrender.com/api/users/login`,
   REGISTER_USER: `https://chat-web-3kav.onrender.com/api/users/signup`,
   GET_MESSAGES: `https://chat-web-3kav.onrender.com/messages`,
